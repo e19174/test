@@ -7,7 +7,7 @@ def fibonacci(n):
         return fibonacci(n - 1) + fibonacci(n - 2)
 
 # Test the function
-terms = 10
+terms = 20
 print(f"The first {terms} terms of the Fibonacci sequence are:")
 for i in range(terms):
     print(fibonacci(i), end=" ")
